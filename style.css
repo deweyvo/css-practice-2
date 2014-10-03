@@ -2,7 +2,8 @@ body {
 	font-family: 'Futura'; 
 	font-size: 28px; 
 	color: White; 
-		background: Black;‘
+	background: Black;
+	text-align: center; 
 }
 header {
 	color: Aqua; 
@@ -11,6 +12,8 @@ header {
 .wrapper {
 	Margin: auto; 
 	width: 50%; 
+	background-color: Gray; 
+	padding: 20px; 
 }
 
 .content {
@@ -19,7 +22,7 @@ header {
 
 nav ul{
 	list-style-type: none;
-	padding: 0
+	padding: 0px; 
 }
 
 nav ul li{
@@ -28,7 +31,15 @@ nav ul li{
 
 nav a{
 	padding: 10px; 
+	text-decoration: none; 
 	margin-left: 50px; 
 	border: 2px solid White; 
 	color: Aqua; 
+	transition: all 0.5s; 
+}
 	
+a:hover {
+	color: red; 
+	transition: all 0.5s; 
+}
+}
